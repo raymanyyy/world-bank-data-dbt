@@ -35,3 +35,5 @@ models:
   world_bank_data_dbt:
     stg:
       + materialized: table
+    marts:
+      + materialized: table
