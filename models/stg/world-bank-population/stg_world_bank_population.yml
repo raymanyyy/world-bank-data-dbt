@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: stg_population_by_country
+    description: population_by_country table with transposed year_ columns
+    columns:
+      - name: country
+        type: text
+        description: country name
+      - name: country_code
+        type: text
+        description: country code https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3
+      - name: as_of_year
+        type: integer
+      - name: population
+        type: integer
