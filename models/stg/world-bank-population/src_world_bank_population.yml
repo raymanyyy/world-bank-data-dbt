@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: population
+    database: bigquery-public-data
+    schema: world_bank_global_population
+    tables:
+      - name: population_by_country
+  - name: nutrition
+    database: bigquery-public-data
+    schema: world_bank_health_population
+    tables:
+      - name: health_nutrition_population
+      
